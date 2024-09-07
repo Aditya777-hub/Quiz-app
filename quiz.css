@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 162, 0);
+}
+
+.container{
+    background-color: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    font-size: 25px;
+    color: rgb(55, 4, 126);
+    font-weight: 600;
+    border-bottom: 1px solid rgb(7, 0, 12);
+    padding-bottom: 30px;
+}
+
+.container-2{
+    padding: 20px 0;
+}
+
+.container h2{
+    font-size: 20px;
+    color: rgb(31, 11, 59);
+    font-weight: 600;
+}
+
+.btn{
+    color: black;
+    padding: 10px;
+    margin: 10px 0 ;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;  
+    font-weight: 500;
+    border: 1px solid black;
+}
+
+.btn:hover:not([disabled]){
+    background-color: black;
+    color: white;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#btn-2{
+    background-color: rgb(55, 4, 126);
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border: none;
+    margin: 20px auto 0;
+   cursor: pointer;
+   border-radius: 5px;
+   display: none;
+}
+
+.correct{
+    background-color: rgb(86, 226, 86);
+}
+
+.incorrect{
+    background-color: rgb(218, 98, 98);
+}
